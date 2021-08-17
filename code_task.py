@@ -29,6 +29,8 @@ df_posi['long_rad'] = df_posi['longitude'].apply(math.radians)
 df_pois['lat_rad'] = df_pois['latitude'].apply(math.radians)
 df_pois['long_rad'] = df_pois['longitude'].apply(math.radians)
 
+# função que identifica a qual poi corresponde cada linha do dataframe de posicoes
+
 def poi(df_posi):
   
   lista = []

@@ -46,14 +46,9 @@ def poi(df_posi):
     c = 2*math.atan2(math.sqrt(a), math.sqrt(1-a))
     distance = R * c *1000
 
-    # lista.append(distance)
-
     if distance <= df_pois.loc[j,'raio']:
       return j
-    #else:
-    #  return 'fora do poi'
-
-  #return df_stop
+    
   return 'fora do poi' 
 
 df_posi['poi'] = df_posi.apply(poi, axis=1)

@@ -41,3 +41,8 @@ Conforme já exemplificado, o resultado final será um dicionário contendo a ch
 - Ignição True (ligada) ou False (desligada).
 
 Outro fator importante ressaltar é que quando o veículo não se enquadrar em nenhum POI, haverá a flag "fora do poi" na coluna "poi" do dataframe gerado.
+
+## Known Issues
+
+Foi identificado que um novo log é gerado para as posições dos veículos quando há uma mudança de status da ignição, mesmo que fora do tempo padrão de envio do sinal.
+Esses casos não foram endereçados para os fins do exercício.

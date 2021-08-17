@@ -10,7 +10,7 @@ O objetivo desse projeto é encontrar respostas sobre a permanência de certos v
 
 A aplicação gera os dados em um dicionário em que teremos como chave a resposta do problema (por exemplo: placa do veículo + POI + estado da ignição do carro)
 
-O código foi escrito em python e utilizei como IDE o Google Colab. Os arquivos CSV usados como base de dados estarão nesse repositório.
+O código foi escrito em python e utilizei como IDE o Google Colab. **Os arquivos CSV usados como base de dados estarão nesse repositório.**
 
 ## Método
 
@@ -28,13 +28,13 @@ Em cada etapa do código há comentários sobre o que está acontecendo, caso ex
 
 Para subir os arquivos via Google Colab, tem um import e mount do Google Drive. Caso for utilizar Jupyter ou outra IDE, há outras formas de subir o CSV, como localmente ou via URL.
 
-O arquivo será convertido em um pandas dataframe e tratado assim durante todo o processamento.
+**O arquivo será convertido em um pandas dataframe e tratado assim durante todo o processamento.**
 
 ## Leitura do resultado final
 
 Conforme já exemplificado, o resultado final será um dicionário contendo a chave (problema proposto) e o tempo calculado.
 
-Para a leitura da chave é importante ter 3 dados em mente: 
+**Para a leitura da chave é importante ter 3 dados em mente:** 
 
 - POI (número do ponto de referência). Aqui estará indicado de 0 a 23, sendo 0 o primeiro item da lista de POIs (POI 1) e 23 e último (POI 24)
 - Placa (identificador do veículo)
